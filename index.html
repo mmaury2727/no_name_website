@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No-Name Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="cursor"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">NO-NAME</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>NO-NAME STUDIO</h1>
+                <p>Créateurs d'expériences uniques</p>
+                <div class="scroll-indicator">
+                    <span></span>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="glow"></div>
+            </div>
+        </section>
+
+        <section id="projets" class="projects">
+            <h2>Nos Projets</h2>
+            <div class="project-grid">
+                <div class="project-card featured-game">
+                    <div class="game-logo">
+                        <img src="assets/no-name-logo.png" alt="NO-NAME-PROCEDURAL Logo">
+                    </div>
+                    <h3>NO-NAME-PROCEDURAL</h3>
+                    <p>Plongez dans une aventure procédurale unique !</p>
+                    <div class="download-section">
+                        <a href="downloads/no-name-procedural.apk" class="download-button" download>
+                            <span class="download-icon">⬇️</span>
+                            Télécharger pour Android
+                        </a>
+                        <span class="file-info">APK • Version 1.0</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 No-Name Studio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
