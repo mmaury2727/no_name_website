@@ -333,4 +333,92 @@ footer {
 
 .download-status.success {
     color: #00C851;
+}
+
+/* Styles pour la section README */
+.readme-section {
+    background: rgba(26, 26, 26, 0.8);
+    border-radius: 15px;
+    margin: 2rem auto;
+    backdrop-filter: blur(10px);
+}
+
+.readme-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.game-description {
+    color: var(--text-color);
+}
+
+.game-description h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, var(--accent-color), var(--accent-color-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game-description blockquote {
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.features {
+    margin: 2rem 0;
+}
+
+.feature-section {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid rgba(123, 44, 191, 0.2);
+}
+
+.feature-section h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color-light);
+}
+
+.feature-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-section li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.known-bugs {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: rgba(255, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.known-bugs h4 {
+    color: #ff4444;
+    margin-bottom: 1rem;
+}
+
+.known-bugs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.known-bugs li {
+    margin: 0.8rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-secondary);
 } 
